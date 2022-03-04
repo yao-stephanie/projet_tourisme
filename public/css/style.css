@@ -12,6 +12,10 @@
     margin: 0 auto;
 } */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 .header_site{
     background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../image/manor-house.jpg);
@@ -34,8 +38,9 @@
 .title_header{
     color: #fff;
     text-transform:uppercase;
-    font-size: 90px;
+    font-size: 80px;
     font-family: 'Acme', sans-serif;
+    text-align: center;
 }
 
 .navbar{
@@ -69,3 +74,96 @@
 .bloc1{
     margin: 0 20px;
 }
+
+.title_3{
+    position: relative;
+    font-size: 40px;
+    /* display: inline-block; */
+    color: #fff;
+    margin-bottom: 60px;
+    text-align:center ;
+}
+
+.title_3::before{
+    position: absolute;
+    content:"";
+    width: 154px;
+    height: 2px;
+    background-color: #e59a09;
+    left: 28%;
+    top: 50%;
+}
+
+.title_3::after{
+    position: absolute;
+    content:"";
+    width: 170px;
+    height: 2px;
+    background-color: #e59a09;
+    right: 27%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* section_1 */
+
+.section_1{
+    padding: 60px;
+}
+
+.image_section{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* .text_section{
+    text-align: center;
+} */
+.card_section{
+    margin-left: 150px;
+}
+.span_section_1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #e59a09;
+}
+.title_section_1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.paragraphe1{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.paragraphe2{
+    font-size: 18px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+.card_section_img{
+    position: relative;
+}
+.anim_img{
+    position: absolute;
+    width: 350px;
+    height: 120px;
+    background-color: #161a1d;
+    font-size: 30px;
+    padding:10px 30px;
+    border-radius: 10px 30px;
+    text-align: center;
+    color: #f1f1ff;
+    bottom: -40px;
+    left: 15%;
+}
+
+.btn_section{
+    padding: 15px 50px;
+    background-color: #e59a09;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+

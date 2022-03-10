@@ -18,7 +18,7 @@ body{
 
 
 .header_site{
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../image/manor-house.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../image/students-2.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +26,11 @@ body{
     position: relative;
 }
 
+
+.logo_site h1{
+    display: inline-block;
+    color:olivedrab;
+}
 .text_header{
     width: 100%;
     position:absolute;
@@ -38,16 +43,16 @@ body{
 .title_header{
     color: #fff;
     text-transform:uppercase;
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'Acme', sans-serif;
     text-align: center;
 }
 
-.navbar{
+.nav_header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    background-color: transparent;
 }
 
 .menu{
@@ -61,7 +66,6 @@ body{
 }
 
 .menu li a{
-    margin: 0 20px;
     font-size: 20px;
     color: #000;
 }
@@ -90,7 +94,7 @@ body{
     width: 154px;
     height: 2px;
     background-color: #e59a09;
-    left: 28%;
+    left: 20%;
     top: 50%;
 }
 
@@ -100,15 +104,73 @@ body{
     width: 170px;
     height: 2px;
     background-color: #e59a09;
-    right: 27%;
+    right: 18%;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.graphe_header{
+    width: 700px;
+    color: #f1f1ff;
+    font-size: 18px;
+    margin-left: 25%;
+}
+
+/* menu_header */
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    height: 130px;
+    background-color: #f8f9fa;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.menu-header{
+    border-radius: 10px;
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.formulaire{
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.header-icon{
+    width: 25px;
+    height: 25px;
+}
+
+
+#find-us{
+    margin-left: 3%;
+}
+
+#find-us{
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+}
+
+.btn-full{
+    background-color: #ff793f;
 }
 
 /* section_1 */
 
 .section_1{
-    padding: 60px;
+    padding: 110px 60px 60px;
 }
 
 .image_section{
@@ -120,8 +182,19 @@ body{
 /* .text_section{
     text-align: center;
 } */
-.card_section{
-    margin-left: 150px;
+/* .card_section{
+    margin-left: 100px;
+} */
+.row_section_2{
+    display: flex;
+}
+
+.row_section_1{
+    display: flex;
+    position: relative;
+}
+.card_header{
+    border: 1px solid transparent;
 }
 .span_section_1{
     font-size: 16px;
@@ -131,6 +204,7 @@ body{
 .title_section_1{
     font-size: 35px;
     font-weight: bold;
+    text-transform: capitalize;
 }
 .paragraphe1{
     font-size: 25px;
@@ -149,13 +223,13 @@ body{
     width: 350px;
     height: 120px;
     background-color: #161a1d;
-    font-size: 30px;
+    font-size: 16px;
     padding:10px 30px;
     border-radius: 10px 30px;
     text-align: center;
     color: #f1f1ff;
     bottom: -40px;
-    left: 15%;
+    left: 5%;
 }
 
 .btn_section{
@@ -166,4 +240,55 @@ body{
     border-radius: 10px;
 }
 
+/* section_2 */
+
+.section_2,
+.section_3{
+    padding: 60px;
+}
+.row_title{
+    padding: 20px 0;
+}
+
+.title_section_2{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.card-img-top{
+    height: 300px;
+}
+.card_liste{
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* section_3 */
+.carol-section{
+    text-align: center;
+    background-color: #e59a09;
+}
+
+.img_circle{
+    width: 100%;
+    padding-top: 15px;
+}
+
+.img_circle img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.paragraphe_section_3{
+    margin: 25px 200px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.2em;
+}
+.star{
+    margin: 25px 0;
+}
 

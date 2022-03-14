@@ -292,3 +292,40 @@ body{
     margin: 25px 0;
 }
 
+/* section_4 */
+
+.img_event{
+    object-fit: cover;
+    height: 200px;
+}
+.card{
+    border: 1px solid transparent;
+}
+
+/* footer */
+.footer_section{
+    background-color: #000;
+    color: #fff;
+}
+.img_footer{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* page de connexion */
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+  }
+  
+  @media (min-width: 1025px) {
+    .h-custom-2 {
+      height: 100%;
+    }
+  }
+

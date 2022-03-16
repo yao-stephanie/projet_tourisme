@@ -11,6 +11,16 @@ app.use('/Public', express.static('public'));
 app.use("/",router_inscription);
 app.use("/",router);
 
+
+ app.get('/index', (req ,res)=>{
+     res.render('index');
+ })
+
+
+  app.get('/connect', (req ,res)=>{
+      res.render('connect');
+  })
+
 app.listen( PORT , ()=>{
     console.log(`listening on port ${PORT}`)
 })

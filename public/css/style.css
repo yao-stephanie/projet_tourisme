@@ -329,3 +329,25 @@ body{
     }
   }
 
+
+  .section_insc{
+    width: 1200px;
+    margin: 50px auto;
+      background-color: #fff;
+      border-radius: 10px;
+  }
+  .body_insc{
+      background-color: darkslateblue;
+  }
+  .logo_insc{
+     padding-top: 15px;
+  }
+  .text_insc,
+  .form_insc{
+      margin-top: -40px;
+  }
+  .img_insc img{
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+

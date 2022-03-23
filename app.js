@@ -21,6 +21,14 @@ app.use("/",router);
       res.render('connect');
   })
 
+  app.get('/search', (req ,res)=>{
+    res.render('search');
+})
+
+app.get('/contact2', (req ,res)=>{
+    res.render('contact2');
+})
+
 app.listen( PORT , ()=>{
     console.log(`listening on port ${PORT}`)
 })

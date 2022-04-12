@@ -1,16 +1,25 @@
  const express = require('express');
+ const app = express();
  const router = express.Router();
  const db = require('../BD/database');
   const bodyParser = require('body-parser');
   const jsonParser= bodyParser.json();
   const urlencodedParser = bodyParser.urlencoded({extended:false});
+  // let text = document.querySelector('#formulaire')
 
    const { body , validationResult}=require("express-validator"); 
+const res = require('express/lib/response');
+
+
+
+
+
 
 
  router.get('/',function(req , res) {
      res.render('../views/inscription',{alert:{}})
  })
+
 
 
  router.post('/inscription',urlencodedParser,function(req , res){
@@ -29,9 +38,10 @@
             
         } else {
             console.log("success",result);
-         res.redirect('/')
+        
         }
    })
+   res.redirect('/connect')
  })
 
 

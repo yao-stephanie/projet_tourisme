@@ -5,6 +5,7 @@ const router = express.Router();
 const bodyParser = require('body-parser');
 const jsonParser= bodyParser.json();
 const urlencodedParser = bodyParser.urlencoded({extended:false});
+// const text = document.querySelector('btn_essai');
 
 // routes
 
@@ -32,6 +33,8 @@ db.query([selection, selection_pass], [email, password], (err, result) => {
 })
 
 })
+
+
 
 
 
